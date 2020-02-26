@@ -1,0 +1,25 @@
+﻿@model IEnumerable<Product>
+<aside>
+    <h2>
+        CÁC SẢN PHẨM LIÊN QUAN
+    </h2>
+    <div class="product-other-swiper">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+
+                @foreach (var item in Model)
+                {
+                    <div class="swiper-slide">
+                        <a asp-route-id="@item.ProductID"
+                           asp-route-catid="@item.ProductCategoryID"
+                           asp-route-title="@item.Title.UrlEncode()"
+                           asp-route="product-detail">
+                            <img class="img-fluid" src="@item.ImageList.GetFirstImage()" />
+                            <span>@item.Title</span>
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</aside>

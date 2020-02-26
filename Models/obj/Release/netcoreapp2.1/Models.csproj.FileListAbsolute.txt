@@ -1,0 +1,8 @@
+E:\ToDoList\Zip\TauThuyenViet\Models\bin\Release\netcoreapp2.1\Models.deps.json
+E:\ToDoList\Zip\TauThuyenViet\Models\bin\Release\netcoreapp2.1\Models.dll
+E:\ToDoList\Zip\TauThuyenViet\Models\bin\Release\netcoreapp2.1\Models.pdb
+E:\ToDoList\Zip\TauThuyenViet\Models\obj\Release\netcoreapp2.1\Models.csprojAssemblyReference.cache
+E:\ToDoList\Zip\TauThuyenViet\Models\obj\Release\netcoreapp2.1\Models.AssemblyInfoInputs.cache
+E:\ToDoList\Zip\TauThuyenViet\Models\obj\Release\netcoreapp2.1\Models.AssemblyInfo.cs
+E:\ToDoList\Zip\TauThuyenViet\Models\obj\Release\netcoreapp2.1\Models.dll
+E:\ToDoList\Zip\TauThuyenViet\Models\obj\Release\netcoreapp2.1\Models.pdb

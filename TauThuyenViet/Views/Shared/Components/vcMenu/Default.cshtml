@@ -1,0 +1,94 @@
+﻿@model IEnumerable<ProductMainCategory>
+@* Cú pháp nhúng c# *@
+@{
+    string controllerName = ViewContext.RouteData.Values["controller"].ToString().ToLower();
+
+}
+
+<nav id="main-nav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" asp-route="home">
+            <img src="/Content/images/logo/logo.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item @(controllerName=="home"?"active":"")">
+                    <a class="nav-link" asp-route="home">
+                        <i class="fa fa-home text-dark"></i>
+                        Trang Chủ
+                    </a>
+                </li>
+                <li class="nav-item @(controllerName=="product"?"active":"") dropdown">
+                    <a class="nav-link dropdown-toggle" asp-route="product-default" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-first-order text-primary"></i>
+                        Sản Phẩm
+                    </a>
+                    <ul class="dropdown-menu">
+                        @foreach (var item in Model)
+                        {
+                            <li class="dropdown">
+                                <a class="dropdown-item" asp-route="product"
+                                   asp-route-page="1"
+                                   asp-route-id="@item.ProductMainCategoryID"
+                                   asp-route-catid="0"
+                                   asp-route-title="@item.Title.UrlEncode()">
+                                    @item.Title
+                                </a>
+                                <ul class="dropdown-menu">
+                                    @foreach (var subItem in item.ProductCategories)
+                                    {
+                                        <li class="dropdown">
+                                            <a class="dropdown-item" asp-route="product"
+                                               asp-route-page="1"
+                                               asp-route-id="@subItem.ProductMainCategoryID"
+                                               asp-route-catid="@subItem.ProductCategoryID"
+                                               asp-route-title="@subItem.Title.UrlEncode()">
+                                                @subItem.Title
+                                            </a>
+                                        </li>
+                                    }
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+                </li>
+                <li class="nav-item @(controllerName=="article"?"active":"")">
+                    <a class="nav-link" asp-route="article">
+                        <i class="fa fa-newspaper-o text-danger"></i>
+                        Tin Tức
+                    </a>
+                </li>
+                <li class="nav-item @(controllerName=="contact"?"active":"")">
+                    <a class="nav-link" asp-route="contact">
+                        <i class="fa fa-volume-control-phone text-success"></i>
+                        Liên Hệ
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" asp-route="home" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="language language-english"></i>
+                        English
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="language language-vietnamese"></i>
+                                Tiếng Việt
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="language language-english"></i>
+                                English
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

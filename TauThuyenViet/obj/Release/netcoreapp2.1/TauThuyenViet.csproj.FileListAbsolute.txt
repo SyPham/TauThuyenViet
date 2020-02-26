@@ -1,0 +1,16 @@
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\appsettings.Development.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\appsettings.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\TauThuyenViet.deps.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\TauThuyenViet.runtimeconfig.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\TauThuyenViet.runtimeconfig.dev.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\TauThuyenViet.dll
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\TauThuyenViet.pdb
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\Models.dll
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Release\netcoreapp2.1\Models.pdb
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Release\netcoreapp2.1\TauThuyenViet.csprojAssemblyReference.cache
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Release\netcoreapp2.1\TauThuyenViet.AssemblyInfoInputs.cache
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Release\netcoreapp2.1\TauThuyenViet.AssemblyInfo.cs
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Release\netcoreapp2.1\TauThuyenViet.csproj.CopyComplete
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Release\netcoreapp2.1\TauThuyenViet.dll
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Release\netcoreapp2.1\TauThuyenViet.pdb

@@ -1,0 +1,32 @@
+[
+  {
+    "outputFileName": "Content/bundle.css",
+    "inputFiles": [
+      "Content/bootstrap.css",
+      "Content/font-awesome.css",
+      "Content/animations.css",
+      "Content/easyzoom.css",
+      "Content/jquery.fancybox.css",
+      "Content/jquery.smartmenus.bootstrap-4.css",
+      "Content/swiper.css",
+      "Content/style.css"
+    ]
+  },
+  {
+    "outputFileName": "/Scripts/bundle.js",
+    "inputFiles": [
+      "/Scripts/jquery-3.0.0.js",
+      "/Scripts/popper.js",
+      "/Scripts/bootstrap.js",
+      "/Scripts/css3-animate-it.js",
+      "/Scripts/easyzoom.js",
+      "/Scripts/jquery.fancybox.js",
+      "/Scripts/jquery.smartmenus.js",
+      "/Scripts/jquery.smartmenus.bootstrap-4.js",
+      "/Scripts/youtube-api.js",
+      "/Scripts/swiper.js",
+      "/Scripts/mp.mansory.js",
+      "/Scripts/script.js"
+    ]
+  }
+]

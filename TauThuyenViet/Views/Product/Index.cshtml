@@ -1,0 +1,31 @@
+﻿@*khai báo 1 danh sách sản phẩm*@
+@model IEnumerable<Product>
+@{PagingInput input = ViewBag.PagingInput as PagingInput;}
+<section id="product-list">
+    <vc:vc-product-main-category />
+    <div class="container-fluid">
+        <div class="row mansory">
+            @foreach (var item in Model)
+            {
+                <div class="item">
+                    <a asp-route-id="@item.ProductID"
+                       asp-route-catid="@item.ProductCategoryID"
+                       asp-route-title="@item.Title.UrlEncode()"
+                       asp-route="product-detail">
+                        <img class="img-fluid" src="@item.ImageList.GetFirstImage()" />
+                        <span>
+                            @item.Title
+                        </span>
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+    <vc:vc-paging page="@input.Page"
+                  page-size="@input.PageSize"
+                  max-page="@input.MaxPage"
+                  total-items="@input.TotalItems"
+                  url="@input.Url" />
+
+    <div class="clearfix pt-3"></div>
+</section>

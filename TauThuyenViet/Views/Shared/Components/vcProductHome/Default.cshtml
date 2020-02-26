@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ProductMainCategory>
+<section id="product-home">
+    @foreach (var item in Model)
+    {
+        <div class="wrapper">
+            <a class="avatar" asp-route="product"
+                              asp-route-page="1"
+                              asp-route-id="@item.ProductMainCategoryID"
+                              asp-route-catid="0"
+                              asp-route-title="@item.Title.UrlEncode()">
+
+                <img class="img-fluid" src="@item.Avatar" asp-append-version="false" />
+                <img class="overlay" src="@item.Thumb" asp-append-version="false" />
+            </a>
+            <div class="full">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+
+                        @foreach (var subItem in item.ProductCategories)
+                        {
+                            @foreach (var subSubItem in subItem.Products.Take(1))
+                            {
+                                <div class="swiper-slide">
+                                    <a asp-route-id="@subSubItem.ProductID" asp-route-catid="@subSubItem.ProductCategoryID" asp-route="product-detail" asp-route-title="@subSubItem.Title.UrlEncode()">
+                                        <img src="@subSubItem.ImageList.GetFirstImage()" />
+                                        <span>@subSubItem.Title</span>
+                                    </a>
+                                </div>
+                            }
+                        }
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+            <div class="thumb">
+                <!-- Slider main container -->
+                <div class="swiper-container">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+
+                        @foreach (var subItem in item.ProductCategories)
+                        {
+                            @foreach (var subSubItem in subItem.Products.Take(1))
+                            {
+                                <div class="swiper-slide">
+                                    <a href="product-detail.html">
+                                        <img src="@subSubItem.ImageList.GetFirstImage()" />
+                                    </a>
+                                </div>
+                            }
+                        }
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    }
+
+
+</section>

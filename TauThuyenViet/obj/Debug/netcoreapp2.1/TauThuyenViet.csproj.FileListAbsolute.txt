@@ -1,0 +1,44 @@
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.deps.json
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.runtimeconfig.json
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.runtimeconfig.dev.json
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.dll
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.pdb
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csprojAssemblyReference.cache
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csproj.CoreCompileInputs.cache
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.AssemblyInfoInputs.cache
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.AssemblyInfo.cs
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.dll
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.pdb
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\Models.dll
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\Models.pdb
+E:\HOCTAP\LTV_MVC_CORE_2.1\NETCORE_API\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csproj.CopyComplete
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.deps.json
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.runtimeconfig.json
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.runtimeconfig.dev.json
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.dll
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.pdb
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\Models.dll
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\Models.pdb
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csprojAssemblyReference.cache
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csproj.CoreCompileInputs.cache
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.AssemblyInfoInputs.cache
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.AssemblyInfo.cs
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csproj.CopyComplete
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.dll
+D:\5.Khóa - V - MVC\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.pdb
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\appsettings.Development.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\appsettings.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.deps.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.runtimeconfig.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.runtimeconfig.dev.json
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.dll
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\TauThuyenViet.pdb
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\Models.dll
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\bin\Debug\netcoreapp2.1\Models.pdb
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csprojAssemblyReference.cache
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.AssemblyInfoInputs.cache
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.AssemblyInfo.cs
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.csproj.CopyComplete
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.dll
+E:\ToDoList\Zip\TauThuyenViet\TauThuyenViet\obj\Debug\netcoreapp2.1\TauThuyenViet.pdb

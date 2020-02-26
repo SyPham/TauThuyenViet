@@ -1,0 +1,18 @@
+﻿
+@model IEnumerable<ProductMainCategory>
+
+<ul class="nav nav-tabs nav-justified">
+
+    @foreach (var item in Model)
+    {
+        <li class="nav-item">
+            <a class="nav-link active" asp-route="product"
+                                       asp-route-page="1"
+                                       asp-route-id="@item.ProductMainCategoryID"
+                                       asp-route-catid="0"
+                                       asp-route-title="@item.Title.UrlEncode()">
+                <img class="img-fluid" src="@item.Thumb" asp-append-version="false"/>
+            </a>
+        </li>
+    }
+</ul>
