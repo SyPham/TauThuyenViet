@@ -29,7 +29,7 @@ namespace TauThuyenViet
                 options.AutomaticAuthentication = false;
             });
            
-            services.AddMvc().AddJsonOptions(x =>
+            services.AddMvc().AddNewtonsoftJson(x =>
             {
                 //fix lỗi lấy dữ liệu menu đa cấp
                 x.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
@@ -39,8 +39,8 @@ namespace TauThuyenViet
 
             services.AddHttpClient("default", client =>
             {
-                //client.BaseAddress = new Uri("http://localhost:63028/");
-                client.BaseAddress = new Uri("http://tauthuyenviet.shc.com/");
+                client.BaseAddress = new Uri("http://localhost:63028/");
+                //client.BaseAddress = new Uri("http://tauthuyenviet.shc.com/");
 
                 client.DefaultRequestHeaders.Add("Accept", "application/json");
             });
@@ -62,12 +62,23 @@ namespace TauThuyenViet
 
             app.UseStaticFiles();
 
-            app.UseMvc(routes =>
+            app.UseRouting();
+
+            app.UseCors();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
+            app.UseEndpoints(endpoints =>
             {
-                routes.MapRoute(
-                    name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                //endpoints.MapHub<ChatHub>("/chat");
+                endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
             });
+            //app.UseMvc(routes =>
+            //{
+            //    routes.MapRoute(
+            //        name: "default",
+            //        template: "{controller=Home}/{action=Index}/{id?}");
+            //});
         }
     }
 }
